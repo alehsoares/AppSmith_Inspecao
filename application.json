@@ -7,11 +7,11 @@
   "pages": [
     {
       "id": "Page1",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Ins_users",
-      "isDefault": true
+      "isDefault": false
     }
   ]
 }
