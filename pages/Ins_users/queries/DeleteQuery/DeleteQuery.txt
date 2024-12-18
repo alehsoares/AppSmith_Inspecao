@@ -1,0 +1,2 @@
+DELETE FROM ins_users
+  WHERE userId = {{data_table.triggeredRow.userId}};

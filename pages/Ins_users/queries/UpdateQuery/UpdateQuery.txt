@@ -1,0 +1,5 @@
+UPDATE ins_users SET
+		userNome = '{{update_form.fieldState.userNome.isVisible ? update_form.formData.userNome : update_form.sourceData.userNome}}',
+		userEmail = '{{update_form.fieldState.userEmail.isVisible ? update_form.formData.userEmail : update_form.sourceData.userEmail}}',
+    userPass = '{{update_form.fieldState.userPass.isVisible ? update_form.formData.userPass : update_form.sourceData.userPass}}'
+WHERE userId = {{data_table.selectedRow.userId}};
